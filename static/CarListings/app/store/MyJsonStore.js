@@ -33,7 +33,8 @@ Ext.define('CarListings.store.MyJsonStore', {
                 type: 'ajax',
                 url: '/haha',
                 reader: {
-                    type: 'json'
+                    type: 'json',
+                    root: 'data'
                 }
             }
         }, cfg)]);
